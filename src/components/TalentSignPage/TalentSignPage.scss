@@ -1,0 +1,117 @@
+@import "../../scss/index.scss";
+
+.main {
+  margin: 0px;
+  padding: 0px;
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .Auth-form-container {
+    margin: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: auto;
+    border: 1px solid $black;
+    border-radius: 10px;
+    background-color: $black;
+    flex-direction: column;
+  }
+  .nav-links {
+    width: 300px;
+    display: flex;
+    list-style: none;
+    background-color: black;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 25px;
+    justify-content: space-around;
+    align-items: center;
+
+    .talent-fanpage {
+      text-decoration: none;
+      color: $white;
+      margin-left: 8px;
+    }
+
+    .talent-talentpage {
+      // width: fit-content;
+      text-decoration: none;
+      background-color: $green;
+      border: 1px solid black;
+      border-radius: 20px;
+      color: $black;
+      padding: 5px 30px;
+    }
+  }
+
+  .Auth-form {
+    width: 420px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-radius: 8px;
+  }
+
+  .Auth-form-content {
+    padding-left: 12%;
+    padding-right: 12%;
+  }
+
+  .Auth-form-title {
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: $font-size-light;
+    color: $white;
+    font-weight: $font-weight-light;
+  }
+
+  .form-control {
+    background-color: $black;
+    border: 2px solid $green;
+    border-radius: 30px;
+    color: $white;
+  }
+
+  .form-check {
+    font-size: 10px;
+    font-weight: $font-weight-light;
+    color: $white;
+    align-items: center;
+
+    span {
+      color: #42ff8a;
+      cursor: pointer;
+    }
+
+    input:checked {
+      background-color: $green;
+      width: 15px;
+      height: 15px;
+      margin-right: 12px;
+    }
+
+  }
+
+  .btn-class {
+    background-color: $green;
+    width: 200px;
+    border: 1px solid $green;
+    border-radius: 30px;
+    height: 40px;
+  }
+
+  .error{
+    color:red;
+    font-size: 13px;
+  }
+}
+
+label {
+  font-size: 13px;
+  font-weight: $font-weight-light;
+  color: $white;
+}
